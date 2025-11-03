@@ -1,0 +1,214 @@
+:root{
+    --branco-pincipal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+   --butao-azul: #167bf7;
+   --cor-de-fundo: #000000;
+   --font-principal: 'inter';
+   --botao-azul-efeito: #88afdf;
+}
+body{
+    background-image: linear-gradient( rgb(0, 0, 0), rgba(237, 13, 20, 0.882), rgb(7, 17, 200));
+    color: var(--branco-pincipal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+.principal{
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_botao_1{
+    background-color: rgb(94, 23, 23);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_2{
+    background-color: rgb(192, 25, 25);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_3{
+    background-color: rgb(255, 0, 0);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_4{
+    background-color: rgb(192, 34, 95);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_5{
+    background-color: rgb(164, 27, 185);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_6{
+    background-color: rgb(146, 10, 200);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+.container_botao_7{
+    background-color: srgb(32, 10, 200);
+    color: var(--branco-pincipal);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+
+.container_titulo{
+   color: #fffafa;
+   font-size: 50px;
+   font-weight: 200;
+   margin-left: 85%;
+ 
+}
+.container_aviso{
+    font-size: 20px;
+    color: var(--cinza-secundario);
+}
+.container_imagem{
+    margin: 1em 0 2em 0;
+    max-width: 100%;
+    margin-left: 65%;
+}
+.containe_caixa{
+    margin: 0 6rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.secundario_imagem{
+    width: 80%;
+    margin: 5px;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.1em;
+}
+.descricao_texto{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+.secundario {
+    align-items: center;
+    margin: 0 5em;
+}
+.descricao_texto{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+.botao_secundario{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao{
+    padding: 2em;
+}
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos {
+    text-align: center;
+}
+.descricao_titulos {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-pincipal);
+}
+.lista_item {
+    font-size: 32px;
+    color: var(--branco-pincipal);
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodape_lista{
+    color: var(--branco-pincipal);
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 3em 0em;
+}
+.rodape_jogos{
+   font-size: 40px;
+   margin-left: 90%;
+}
+.lista_link a{
+    text-decoration: none;
+    color: var(--branco-pincipal);
+    margin-left: 1.5em;
+}
+.rodape_texto{
+    margin: 1em 0;
+    font-size: 14px;
+    color: var(--cinza-secundario);
+}
+.lista_link a:hover{
+    color: var(--butao-azul);
+}
+.container_botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
