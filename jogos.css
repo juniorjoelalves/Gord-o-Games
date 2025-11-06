@@ -189,7 +189,7 @@ body{
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
-    margin: 3em 0em;
+    margin: 0.5em 0em;
 }
 .rodape_jogos{
    font-size: 40px;
@@ -198,7 +198,7 @@ body{
 .lista_link a{
     text-decoration: none;
     color: var(--branco-pincipal);
-    margin-left: 1.5em;
+    margin-left: 1.4em;
 }
 .rodape_texto{
     margin: 1em 0;
